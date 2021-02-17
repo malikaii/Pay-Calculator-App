@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Calculator App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Pay Calculator App</h1>
+    <form class="first">
+        <p>How many hours a shift do you work?(Subtract breaks)</p>
+        <input type="number" name="hours" id="answer">
+    </form>
+
+    <form class="second">
+        <p>How many days of the pay period did you work?</p>
+        <input type="number" name="days" id="answer2">
+    </form>
+
+    <form class="third">
+        <p>Did you work a Sunday?</p>
+        <input type="text" name="question" id="answer3">
+    </form>
+
+    <form class="fourth">
+        <p>What is your salary(per hour)?</p>
+        <input type="number" name="salary" id="answer4">
+    </form> 
+    
+    <form>
+        <button id = "button" type="click">Submit</button>
+    </form>
+
+    <p id="payamount"></p>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
